@@ -1,165 +1,31 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student form</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body style="background-image: url(dewal.jpg);">
-    
-  <div>
-    <h1 class="header">Student Form</h1>
-  <hr>
-  <h2 class="pers">Personal Address: </h2> 
+<body>
 
-  <label for="user" class="name">Name:</label>
-  <input type="text" class="iname" id="user" name="user" placeholder="Name">
-  
-  <label for="id" class="id">ID No:</label>
- <input type="text" id="id"class=iid name="id" placeholder="id">
- <label for="dob" class="dob">Dath of Birth:</label>
-<input type="date" id="dob">
-<br>
-<label for="gn" class="gender">Gender:</label>
-<select name="gn" id="gn" class="sgender">
-    <option value="Male">Male</option>
-    <option value="female">Female</option>
-    <option value="others">Otheres</option>
-</select>
-
-<label for="con" class="con">Country:</label>
-<select name="con" id="con">
-<option value="Please select">Please select</option>
-<option value="India">India<option>
-<option value="indu">indunisia<option>
-<option value="lond">London</option>
-<option value="Pakistan">Pakistan</option>
-<option value="Afganistan">Afganistan</option>
-<option value="bang">Bangladesh</option>
-
-</select>
-<br>
-<label for="email"class="email">Email:</label>
-<input type="text" id="email" placeholder="email">
-<label for="pass" class="pass" >Password:</label>
+<div class="d1">
+    <div class="login">
+       
+    <label class="email" for="email">Email:</label>
+    <input type="text" id="email" placeholder="email">
+    <br>
+    <label class="pass" for="pass">password:</label>
 <input type="password" id="pass" placeholder="password">
-<br>
-<label for="phon" class="phon" >Phone:</label>
-<select name="phone" id="phon">
-  <option value="code">Phone code</option>
-  <option value="+088">+088</option>
-  <option value="+099">+099</option>
-  <option value="+078">+078</option>
-</select>
-<input type="text" id="phon" name="phone" placeholder="Number">
+  <br>
+<input class="submit"type="submit" value="login">
+<input type="reset" class="reset" value="reset">
 
 
-<p class="p1">1. Are you a student?</p>
-<label for="s1" class="yes">Yes</label>
-<input type="radio" id="s1" name="Are you a student?">
-<label for="s2" class="no">No</label>
-<input type="radio" id="s2" name="Are you a student?">
-<p class="p2">2. Are you Married?</p>
-<input type="radio" class="yes1" id="yes" name="p2">
-<label for="yes">Yes</label>
-<input type="radio" id="No" name="p2">
-<label for="No">No</label>
+    </div>
 
-
-<br>
-<h2 class="h2pd">parents details:</h2>
-
-<label for="fat" class="father">Father's Name:</label>
-<input type="text" id="fat" name="fat" placeholder="Name">
-<label for="mat" class="mother">Mother's Name:</label>
-<input type="text" id="mat" placeholder="Name">
-<br>
-<label for="add" class="address">Addressa:</label>
-<input type="text" id="add" placeholder="address">
-<label for="rood">road/street:</label>
-<input type="text" id="rood" placeholder="r/s">
-<br>
-<label for="fat" class="fat">Father's N/A:</label>
-<input type="text" id="fat" placeholder="N/A">
-<label for="mother">Mother's N/A:</label>
-<input type="text" id="mother" placeholder="N/A">
-
-<br>
-
-
-<h2 class="edu">Education status:</h2>
-<p class="ssc"><strong><ins >SSC</ins></strong></p>
-<label for="school" class="school">School Name:</label>
-<input class="isch" type="text" id="School" placeholder="School name">
-<br>
-<label for="board" class="board">Board:</label>
-<input type="text" id="board" placeholder="board">
-<label for="year">Year:</label> 
-<input type="text" id="year" placeholder="year">
-<label for="gpa">GPA:</label>
-<input type="text" id="gpa" placeholder="Gpa">
-
-<h2 class="hsc"><B><INS>HSC</INS></B></h2>
-<label class="college" for="college">College Name:</label>
-<input type="text" class="icol" id="college" placeholder="college name">
-<br>
-<label for="bor">Board:</label>
-<input type="text" id="bor" placeholder="bor">
-<label for="yr">Year</label>
-<input type="text" id="yr" placeholder="Year">
-<label for="gp">GPA:</label>
-<input type="text" id="gp" placeholder="Gpa">
-
-
-<h2>University:</h2>
-<label for="nam">Name:</label>
-<input type="text" id="nam"
-class="uname" placeholder="Name">
-<br>
-
-<label for="dep">Department:</label>
-<input type="text" id="dep" placeholder="subject">
-<label for="sem">Semester:</label>
-<select name="semester" id="sem">
-  <option value="1st">1st semester</option>
-  <option value="2nd">2nd semester</option>
-  <option value="3rd">3rd semester</option>
-  <option value="4th">4th semester</option>
-  <option value="5th">5th semester</option>
-  <option value="6th">6th semester</option>
-  <option value="7th">7th semester</option>
-  <option value="8th">8th semester</option>
-  <option value="9th">9th semester</option>
-  <option value="10th">10th semester</option>
-  <option value="11th">11th semester</option>
-  <option value="12th">12th semester</option>
-
-</select>
-
-<br>
-<br>
-<label for="photo">Your Photos:</label>
-<input type="file" id="photo">
-<h2>Certificate:</h2>
-  <label for="ssc c">SSC:</label>
-<input type="file" id="ssc c">
-<label for="hssc c">HSC:</label>
-<input type="file" id="hssc c" >
-<br>
-
-<input class="submit" type="submit" value="Submit">
-<input type="reset" value="reset" class="reset">
-
+  <div class="d2"><img src="logo.png" alt="times"></div>
 </div>
-
-
-
-
-
-
-
-
 
 </body>
 </html>
