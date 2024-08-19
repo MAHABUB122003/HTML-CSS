@@ -1,235 +1,45 @@
-
- div{
-  width:900px;
-  height: 100%;
-  background-image: url(pic.jpg);
-  background-size: cover;
-   margin: auto; 
-   border: 2px solid rgb(0,0,0,0.5);
-   box-shadow: 5px 5px 5px rgb(0,0,0,0.5),
-   -5px -5px 5px rgb(0,0,0,0.5);
-     font-size: 20px;
-     font-weight: 700;
-     padding: 10px;
-     line-height: 50px;
-     padding-bottom: 50px;
- background-repeat: no-repeat;
-    }
-  
-
-
-.header{
-    text-align: center;
-    background-color:rgb(212, 247, 10);
-    padding:20px;
-     font-size: 40px;  
-    padding:20px
-  }
-.header:hover{
-    color:red;
-  background-color: black;
-}
-.pers{
-  background-color: aqua;
-  padding: 10px;
-  
-  font-size: 30px;
-}
-.pers:hover{
-  color:aqua;
-  background-color: black;
-}
-.name{
-  font-size: 20px;
-  font-weight: 700;
-  margin-left: 30px;
-
-}
-.iname{
-  padding-right: 50px;
-  text-align: center; 
-  
-}
-.id{
-    margin-left: 15px;
-    font-weight: 700;
-    font-size: 20px;
-}
-.idd{
-  
-  text-align: center;
-
-}
-.dob{
-  font-weight: 700;
-  margin-left: 10px;
-  font-size: 20px;
-}
-.gender{
-  font-weight: 700;
-  font-size: 20px;
-  margin-left: 30px;
-}
-.sgender{
-  padding-left: 30px;
-  margin: 20px;
-}
-.con{
-  font-weight: 700;
-  font-size: 20px;
-  margin-left: 20px;
-}
-.email{
-  margin-left: 30px;
-  font-weight: 700;
- font-size: 20px;
-
-}
-.pass{
-  margin-left: 50px;
-  font-weight: 700;
-  font-size: 20px;
-}
-.phon{
-font-size: 20px;
-font-weight: 700;
-margin-left: 30px;
-line-height: 50px;
-}
-.p1{
-  font-size: 20px;
-  font-weight:700;
-  margin-left: 30px;
-}
-.yes{
-  margin-left: 50px;
-  font-size: 20px;
-}
-.no{
-font-size: 20px;
-
-}
-.p2{
-  margin-left: 30px;
-  font-size: 20px;
-  font-weight: 700;
-}
-.yes1{
-  
-  margin-left: 50px;
-  font-size: 20px;
-  
-}
-.h2pd{
-  font-size: 25px;
-  background-color: rgb(183, 211, 228);
-  padding: 20px; 
-}
-.h2pd:hover{
-  color:aquamarine;
-  background-color: tomato;
-}
-.father{
-  margin-left: 30px;
-}       
-.mother{
-  margin-left: 30px;
-}     
-input{
-  padding-left: 25px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-align: center;
-  
-}
-.address{
-  margin-left: 30px;
-}
-.fat{
-  margin-left: 30px;
-}
-.edu{
-  background-color: tomato;
-  padding: 20px;
-}
-.edu:hover{
-  color:aqua;
-  background-color: black;
-
-}
-.ssc{
-  font-size: 30px;
-  margin-left: 0;
-  
-}
-.school{
- margin-left: 30px;
- 
-}
-.isch{
-padding-right: 60%;
-}
-.board{
-
-
-}
 *{
-  margin-left: 20px;
-}
-.hsc{
-  margin-left: 0;}
-.icol{
-  padding-right: 50%;
-
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    
 
 }
-.uname{
-  padding-right: 50%;
+header{
+    position:fixed;
+    width:100%;
+    top:0;
+    right:0;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:20px 10%;
+  background-color: antiquewhite;
+     
+}
+.logo img{
+    max-width: 120px;
+    height: auto;
+}
+ul {
+    display: flex;
 }
 
-.submit{
-  padding:10px;
-  background-color: rgb(149, 235, 9);
-  margin-left: 40px;
-  color: white;
-}
-.submit:hover{
-  background-color: black;
-  color: red;
+ul a{
+    margin:10px;
+    font-size: 10px;
+  text-transform: capitalize;
+  font-weight: 700;
+  transition: all .42s ease;
 
 }
-.reset{
-  padding: 10px;
-  background-color:rgb(235, 43, 43);
-  color: white;
+label{
+    margin-left: ;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.serch{
+    padding-left:;
+}
 
 
 
