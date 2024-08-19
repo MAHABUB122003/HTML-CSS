@@ -1,0 +1,92 @@
+
+.d1{
+
+    width:800px;
+ height: 500px;
+ background-color: antiquewhite;
+border-radius: 20px;
+position: relative;
+margin:10% auto ;
+box-shadow:5px 5px 5px black, -5px -5px 5px black ;
+ 
+
+}
+
+.d2{
+    width: 300px;
+    height: 300px;
+    outline: 1px solid red;
+    margin: auto;
+    border: 2px solid black;
+    outline-offset: 5px;
+    border-radius: 50px 10px 10px 150px;
+padding: 20px;
+box-shadow: 5px 5px 5px black, -5px -5px 5px black;
+position: absolute;
+right: 0;
+margin-top: 90px;
+margin-right: 20px;
+
+}
+div img{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: small;
+  
+}
+.login{
+  
+    position: fixed;   
+   width: 250px;
+   height: 300px;
+   border:1px solid tomato;
+   margin-top: 60px;
+   margin-left: 40px;
+    box-shadow: 5px 5px 5px black, -5px -5px 5px black;
+    padding: 30px;
+border: none;
+ 
+
+}
+.email{
+
+ margin-left: 10px;
+ font-weight: 700;
+ font-size: 25px;
+}
+.pass{
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+label{
+    margin-top: 50px;
+    padding: 50px;
+}
+input{
+    padding:8px;
+    padding-right: 50px;
+}
+.submit{
+    margin-top: 70px;
+    padding: 5px;
+    margin-right: 15px;
+    color:aliceblue;
+    background-color: rgb(80, 80, 238);
+}
+.reset{
+padding: 5px;
+color:white;
+background-color: rgb(243, 42, 42);
+
+}
+.reset:hover{
+    color:black;
+    background-color: red;
+}
+
+body{
+    background:linear-gradient(rgb(117, 222, 236), green)
+}
